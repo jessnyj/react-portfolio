@@ -9,7 +9,7 @@ function ContactForm() {
                 <div className="card-content">
                     <h3 className="title is-3">Contact Me</h3>
                     <form action="https://formspree.io/f/meqpwlrb" method="POST">
-                        <div className="field">
+                        <div className="field email">
                             <div className="control has-icons-left has-icons-right">
                                 <label>Email:<input className="input is-success" placeholder="Email input" type="text" name="_replyto"></input></label>
                             </div>
@@ -19,7 +19,7 @@ function ContactForm() {
                             <div className="control">
                                 <label>
                                     Message:
-                    <textarea className="textarea" placeholder="Textarea" name="message"></textarea>
+                                <textarea className="textarea" placeholder="Textarea" name="message"></textarea>
                                 </label>
                             </div>
                         </div>
