@@ -6,21 +6,27 @@ function Footer() {
         <footer className="footer">
             <div className="content has-text-centered">
                 <p className="buttons">
-                    <button className="button is-medium">
-                        <span className="icon is-small">
-                            <i className="fab fa-github"></i>
-                        </span>
-                    </button>
-                    <button className="button is-medium">
-                        <span className="icon is-small">
-                            <i className="fab fa-linkedin-in"></i>
-                        </span>
-                    </button>
-                    <button className="button is-medium">
-                        <span className="icon is-small">
-                            <i className="fas fa-envelope"></i>
-                        </span>
-                    </button>
+                    <a href="https://github.com/jessnyj">
+                        <button className="button is-medium">
+                            <span className="icon is-small">
+                                <i className="fab fa-github"></i>
+                            </span>
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jessny-joseph-361515201/">
+                        <button className="button is-medium">
+                            <span className="icon is-small">
+                                <i className="fab fa-linkedin-in"></i>
+                            </span>
+                        </button>
+                    </a>
+                    <a href="mailto:jessnyjoseph@gmail.com">
+                        <button className="button is-medium">
+                            <span className="icon is-small">
+                                <i className="fas fa-envelope"></i>
+                            </span>
+                        </button>
+                    </a>
                 </p>
             </div>
         </footer>
