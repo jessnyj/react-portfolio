@@ -6,17 +6,17 @@ function Footer() {
         <footer className="footer">
             <div className="content has-text-centered">
                 <p className="buttons">
-                    <button className="button">
+                    <button className="button is-medium">
                         <span className="icon is-small">
                             <i className="fab fa-github"></i>
                         </span>
                     </button>
-                    <button className="button">
+                    <button className="button is-medium">
                         <span className="icon is-small">
                             <i className="fab fa-linkedin-in"></i>
                         </span>
                     </button>
-                    <button className="button">
+                    <button className="button is-medium">
                         <span className="icon is-small">
                             <i className="fas fa-envelope"></i>
                         </span>
