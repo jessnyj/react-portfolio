@@ -1,10 +1,9 @@
 import React from 'react';
-import { } from '@material-ui/core';
+import Header from "../../components/Header/header"
 
 function Contact() {
     return (
-
-
+        <Header />
 
     );
 }
