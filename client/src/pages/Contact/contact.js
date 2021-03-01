@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from "../../components/Header/header"
+import Header from "../../components/Header/header";
+import ContactForm from "../../components/ContactForm/contactform";
 
 function Contact() {
     return (
-        <Header />
-
+        <div>
+            <Header />
+            <ContactForm />
+        </div>
     );
 }
 
