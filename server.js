@@ -4,6 +4,9 @@ const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Requiring models for syncing
+var db = require("./models");
+
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -14,9 +17,10 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 // app.use(routes);
 
-// Connect to SQL
 
-// Start the API server
-app.listen(PORT, function () {
-    console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+// Start the API server and syncing database
+db.sequelize.sync().then(function () {
+    app.listen(PORT, function () {
+        console.log("Server listening on port %s. Visit http://localhost:%s/ in your browser to access.", PORT, PORT);
+    });
 });
