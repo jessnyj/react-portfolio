@@ -10,7 +10,7 @@ const About = () => {
             <div id="aboutCard" class="card">
                 <div class="card-content">
                     <figure id="aboutPic" class="image is-128x128">
-                        {/* <img src="/assets/images/jessny-grad.png"> */}
+                        <img src="../../images/jessny-grad.png"></img>
                     </figure>
                         <h3 id="title3" class="title is-3">About Me</h3>
                         <h4 id="title4" class="subtitle is-4">Jessny Joseph</h4>
@@ -23,7 +23,6 @@ const About = () => {
                             entrepreneur in the field of science, and I am eager to be apart of this new field. Please
                             feel free to contact me with any questions.
                     </div>
-                        <h5 id="title4" class="subtitle is-6">email: jessnyjoseph@gmail.com</h5>
                         <div id="socialBtns" class="field is-grouped">
                             <p class="control">
                                 <a href="https://www.linkedin.com/in/jessny-joseph-361515201/">
