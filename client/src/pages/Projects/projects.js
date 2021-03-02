@@ -1,9 +1,13 @@
 import React from "react";
 import Project from "../../components/Project/project";
+import Footer from "../../components/Footer/footer";
 
 const Projects = () => {
     return (
-        <Project/>
+        <div>
+            <Project />
+            <Footer />
+        </div>
     );
 }
 
