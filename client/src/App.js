@@ -5,7 +5,7 @@ import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import Contact from "./pages/Contact/contact"
 import Projects from "./pages/Projects/projects";
-
+import ProjectExplained from "./pages/ProjectExplained/projectExplained";
 function App() {
   return (
     <Router>
@@ -16,6 +16,7 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/projectExplained" component={ProjectExplained} />
         </Switch>
       </div>
     </Router>

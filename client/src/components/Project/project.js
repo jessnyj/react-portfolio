@@ -1,5 +1,6 @@
 import React from 'react';
 import "./project.css";
+// import pages from "../../pages/projectExplained/projectExplained";
 
 function Project() {
     return (
@@ -10,9 +11,11 @@ function Project() {
                 </figure>
             </div>
             <div className="card-image">
+                <a href="/projectExplained">
                 <figure className="image">
                     <img src="../../images/simpCard.png" alt="simpGame"></img>
                 </figure>
+                </a>
             </div>
             <div className="card-image">
                 <figure className="image">
