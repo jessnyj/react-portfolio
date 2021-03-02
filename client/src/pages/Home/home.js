@@ -13,7 +13,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1 className="animate__animated animate__fadeInDown">Hi, I'm Jessny.</h1>
+                <h1 id="name" className="animate__animated animate__fadeInDown">Hi, I'm Jessny.</h1>
                 <p id="desc">I am a web developer interested in the convergence between biological systems and emerging
             technologies. Feel free to look at my most recent projects.</p>
             </div>

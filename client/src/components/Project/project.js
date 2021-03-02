@@ -4,6 +4,8 @@ import "./project.css";
 
 function Project() {
     return (
+        <div>
+            <h1 id="instructions">Click an image to learn more:</h1>
         <section className="cardHold">
             <div className="card-image">
                 <figure className="image projPic">
@@ -38,6 +40,7 @@ function Project() {
                 </figure>
             </div>
         </section>
+        </div>
     );
 }
 
