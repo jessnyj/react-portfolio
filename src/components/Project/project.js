@@ -1,5 +1,11 @@
 import React from 'react';
 import "./project.css";
+import love from "../../images/loveCard.png";
+import simp from "../../images/simpCard.png";
+import empDir from "../../images/empCard.png";
+import fitness from "../../images/fitnessCard.png";
+import burger from "../../images/burgerCard.png";
+import role from "../../images/role.png";
 
 function Project() {
     return (
@@ -9,42 +15,42 @@ function Project() {
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
-                            <img src="../../images/loveCard.png" alt="loveCon"></img>
+                            <img src={love} alt="loveCon"></img>
                         </figure>
                     </a>
                 </div>
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
-                            <img src="../../images/simpCard.png" alt="simpGame"></img>
+                            <img src={simp} alt="simpGame"></img>
                         </figure>
                     </a>
                 </div>
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
-                            <img src="../../images/empCard.png" alt="empDir"></img>
+                            <img src={empDir} alt="empDir"></img>
                         </figure>
                     </a>
                 </div>
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
-                            <img src="../../images/fitnessCard.png" alt="fitness"></img>
+                            <img src={fitness} alt="fitness"></img>
                         </figure>
                     </a>
                 </div>
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
-                            <img src="../../images/burgerCard.png" alt="burger"></img>
+                            <img src={burger} alt="burger"></img>
                         </figure>
                     </a>
                 </div>
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
-                            <img src="../../images/role.png" alt="empTrack"></img>
+                            <img src={role} alt="empTrack"></img>
                         </figure>
                     </a>
                 </div>

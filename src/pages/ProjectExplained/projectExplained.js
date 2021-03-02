@@ -1,6 +1,12 @@
 import React from "react";
 import Footer from "../../components/Footer/footer";
 import "./projectExplained.css";
+import loveCon from "../../images/loveCon.png";
+import clicky from "../../images/clicky.png";
+import empDir from "../../images/empCard.png";
+import fitness from "../../images/fitnessCard.png";
+import burger from "../../images/burger.png";
+import role from "../../images/role.png";
 
 const ProjectExplained = () => {
     return (
@@ -8,7 +14,7 @@ const ProjectExplained = () => {
         <section>
             <section className="hero is-large">
                 <figure>
-                    <img src="../../images/loveCon.png" alt="loveCon"></img>
+                    <img src={loveCon} alt="loveCon"></img>
                 </figure>
             </section>
             <section className="hero is-medium">
@@ -48,7 +54,7 @@ const ProjectExplained = () => {
             {/* ClickyGame */}
             <section className="hero is-large">
                 <figure>
-                    <img src="../../images/clicky.png" alt="clicky"></img>
+                    <img src={clicky} alt="clicky"></img>
                 </figure>
             </section>
             <section className="hero is-medium">
@@ -86,7 +92,7 @@ const ProjectExplained = () => {
             {/* Employee Directory */}
             <section className="hero is-large">
                 <figure>
-                    <img src="../../images/empCard.png" alt="empCard"></img>
+                    <img src={empDir} alt="empCard"></img>
                 </figure>
             </section>
             <section className="hero is-medium">
@@ -123,7 +129,7 @@ const ProjectExplained = () => {
             {/* Fitness Tracker */}
             <section className="hero is-large">
                 <figure>
-                    <img src="../../images/fitnessCard.png" alt="fitnessCard"></img>
+                    <img src={fitness} alt="fitnessCard"></img>
                 </figure>
             </section>
             <section className="hero is-medium">
@@ -161,7 +167,7 @@ const ProjectExplained = () => {
             {/* Burger */}
             <section className="hero is-large">
                 <figure>
-                    <img src="../../images/burger.png" alt="burger"></img>
+                    <img src={burger} alt="burger"></img>
                 </figure>
             </section>
             <section className="hero is-medium">
@@ -200,7 +206,7 @@ const ProjectExplained = () => {
             {/* Employee Tracker */}
             <section className="hero is-large">
                 <figure>
-                    <img id="empTracker" src="../../images/role.png" alt="role"></img>
+                    <img id="empTracker" src={role} alt="role"></img>
                 </figure>
             </section>
             <section className="hero is-medium">
