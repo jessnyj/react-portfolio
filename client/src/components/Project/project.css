@@ -1,0 +1,33 @@
+/* .exCard {
+    width: 300px;
+    background-color: blueviolet;
+    margin-left: 50px;
+} */
+
+.image {
+    width: 240px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    border-radius: 2px;
+
+}
+.image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    transition: .1s;
+}
+
+.section {
+    /* margin-top: 500px; */
+}
+
+/* .tile {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+} */
+

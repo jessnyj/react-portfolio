@@ -10,7 +10,7 @@ const About = () => {
             <div id="aboutCard" class="card">
                 <div class="card-content">
                     <figure id="aboutPic" class="image is-128x128">
-                        <img src="../../images/jessny-grad.png"></img>
+                        <img src="../../images/jessny-grad.png" alt="Jessny Grad"></img>
                     </figure>
                         <h3 id="title3" class="title is-3">About Me</h3>
                         <h4 id="title4" class="subtitle is-4">Jessny Joseph</h4>
