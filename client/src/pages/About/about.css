@@ -2,8 +2,20 @@
     float: left;
 }
 
-#aboutText, #title3, #title4, #socialBtns {
+#aboutText, #title3, #title4 {
     margin-left: 150px;
+}
+
+#socialBtns {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 20px;
+}
+
+.socialBtn {
+    margin-right: 8px;
+    /* margin-left: 8px; */
 }
 
 #aboutCard {
@@ -11,5 +23,6 @@
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
-    height: 90%;
+    height: 100%;
 }
+

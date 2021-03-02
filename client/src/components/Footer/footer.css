@@ -2,11 +2,11 @@
     margin-top: 10%;
 }
 
-.buttons {
+.footerBtns {
     display: flex;
     justify-content: center;
 }
 
-.button {
+.footerBtn {
     margin-right: 7px;
 }

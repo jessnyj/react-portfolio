@@ -1,18 +1,21 @@
 import React from 'react';
-
+import "./header.css";
 
 function Header() {
     return (
-        <section className="hero is-medium is-link">
+        <section className="hero is-medium is-dark">
             <div className="hero-body">
-                <p className="title">
-                    Medium hero
+                <p className="titleHeader">
+                    Jessny Joseph
                 </p>
-                <p className="subtitle">
+                {/* <p className="subtitle">
                     Medium subtitle
-                </p>
+            </p> */}
             </div>
         </section>
+        // <div>
+        //     <img className="header" src="../../images/header.png"></img>
+        // </div>
     );
 }
 
