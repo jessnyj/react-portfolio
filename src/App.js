@@ -26,3 +26,6 @@ function App() {
 
 
 export default App;
+
+// gh pages deployed link
+// https://jessnyj.github.io/react-portfolio/
