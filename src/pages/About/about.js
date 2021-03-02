@@ -3,6 +3,7 @@ import Header from "../../components/Header/header"
 import Footer from "../../components/Footer/footer";
 import "./about.css"
 import jessny from "../../images/jessny-grad.png";
+import resume from "../../images/resume.pdf";
 
 const About = () => {
     return (
@@ -46,7 +47,7 @@ const About = () => {
                             </a>
                         </p>
                         <p className="control btns">
-                            <a href="../../images/resume.pdf">
+                            <a href={resume}>
                                 <button className="button is-danger is-outlined socialBtn">
                                     <span className="icon">
                                         <i className="fas fa-download"></i>
