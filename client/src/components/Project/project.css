@@ -5,8 +5,8 @@
 } */
 
 .image {
-    width: 240px;
-    height: 290px;
+    width: 350px;
+    height: 360px;
     display: flex;
     justify-content: center;
     margin: auto;

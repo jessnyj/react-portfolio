@@ -6,32 +6,32 @@ function Project() {
         <section>
             <div className="card-image">
                 <figure className="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="loveCon"></img>
+                    <img src="../../images/loveCard.png" alt="loveCon"></img>
                 </figure>
             </div>
             <div className="card-image">
                 <figure className="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="empDir"></img>
+                    <img src="../../images/simpCard.png" alt="simpGame"></img>
                 </figure>
             </div>
             <div className="card-image">
                 <figure className="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="simpGame"></img>
+                    <img src="../../images/empCard.png" alt="empDir"></img>
                 </figure>
             </div>
             <div className="card-image">
                 <figure className="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="fitness"></img>
+                    <img src="../../images/fitnessCard.png" alt="fitness"></img>
                 </figure>
             </div>
             <div className="card-image">
                 <figure className="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="burger"></img>
+                    <img src="../../images/burgerCard.png" alt="burger"></img>
                 </figure>
             </div>
             <div className="card-image">
                 <figure className="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="empTrack"></img>
+                    <img src="../../images/role.png" alt="empTrack"></img>
                 </figure>
             </div>
         </section>
