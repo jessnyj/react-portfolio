@@ -1,6 +1,5 @@
 import React from 'react';
 import "./project.css";
-// import pages from "../../pages/projectExplained/projectExplained";
 
 function Project() {
     return (

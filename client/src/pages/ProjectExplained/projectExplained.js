@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer/footer";
+import "./projectExplained.css";
 
 const ProjectExplained = () => {
     return (
@@ -82,6 +83,150 @@ const ProjectExplained = () => {
                     </div>
                 </div>
             </section>
+            {/* Employee Directory */}
+            <section className="hero is-large">
+                <figure>
+                    <img src="../../images/empCard.png" alt="empCard"></img>
+                </figure>
+            </section>
+            <section className="hero is-medium">
+                <div className="hero-body">
+                    <p className="title">
+                        Employee List
+                    </p>
+                    <p className="subtitle">
+                        This application allows a user to view their entire employee directory, filter their employees by ascending and descending order, and allows them to search for a user by name.                    </p>
+                    <div className="field is-grouped">
+                        <p className="control">
+                            <a href="https://jessnyj.github.io/employee-list/">
+                                <button className="button is-info is-outlined">
+                                    <span className="icon">
+                                        <i className="fas fa-external-link-square-alt"></i>
+                                    </span>
+                                    <span>Deployed Link</span>
+                                </button>
+                            </a>
+                        </p>
+                        <p className="control">
+                            <a href="https://github.com/jessnyj/employee-list">
+                                <button className="button is-dark is-outlined">
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            {/* Fitness Tracker */}
+            <section className="hero is-large">
+                <figure>
+                    <img src="../../images/fitnessCard.png" alt="fitnessCard"></img>
+                </figure>
+            </section>
+            <section className="hero is-medium">
+                <div className="hero-body">
+                    <p className="title">
+                        Fitness Track
+                    </p>
+                    <p className="subtitle">
+                        This application allows a user to track their daily workouts. They can log multiple exercises on a specific day, track the name, type, sets, reps, and duration of exercise, and track distance traveled if they did a cardio workout.
+                    </p>
+                    <div className="field is-grouped">
+                        <p className="control">
+                            <a href="https://fitness-track29.herokuapp.com/exercise">
+                                <button className="button is-info is-outlined">
+                                    <span className="icon">
+                                        <i className="fas fa-external-link-square-alt"></i>
+                                    </span>
+                                    <span>Deployed Link</span>
+                                </button>
+                            </a>
+                        </p>
+                        <p className="control">
+                            <a href="https://github.com/jessnyj/fitness-track">
+                                <button className="button is-dark is-outlined">
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            {/* Burger */}
+            <section className="hero is-large">
+                <figure>
+                    <img src="../../images/burger.png" alt="burger"></img>
+                </figure>
+            </section>
+            <section className="hero is-medium">
+                <div className="hero-body">
+                    <p className="title">
+                        Burger
+                    </p>
+                    <p className="subtitle">
+                        This application is a fun burger logger! You can add your favorite burger, and decide whether you want to
+                        devour it or if you aren't hungry you can change your mind.
+                    </p>
+                    <div className="field is-grouped">
+                        <p className="control">
+                            <a href="https://burger-eater70.herokuapp.com/">
+                                <button className="button is-info is-outlined">
+                                    <span className="icon">
+                                        <i className="fas fa-external-link-square-alt"></i>
+                                    </span>
+                                    <span>Deployed Link</span>
+                                </button>
+                            </a>
+                        </p>
+                        <p className="control">
+                            <a href="https://github.com/jessnyj/burger">
+                                <button className="button is-dark is-outlined">
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            {/* Employee Tracker */}
+            <section className="hero is-large">
+                <figure>
+                    <img id="empTracker" src="../../images/role.png" alt="role"></img>
+                </figure>
+            </section>
+            <section className="hero is-medium">
+                <div className="hero-body">
+                    <p className="title">
+                        Employee Tracker
+                    </p>
+                    <p className="subtitle">
+                        The employer tracker application allows a user to manage a company's employees. It allows a user to add and
+                        view departments, roles, employees, as well as update employee roles.
+                    </p>
+                    <div className="field is-grouped">
+                        <p className="control">
+                            <a href="https://github.com/jessnyj/employee-tracker">
+                                <button className="button is-dark is-outlined">
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <Footer />
         </section>
 
     );
