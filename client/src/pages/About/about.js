@@ -24,7 +24,7 @@ const About = () => {
                         feel free to contact me with any questions.
                     </div>
                     <div id="socialBtns" className="field is-grouped">
-                        <p className="control">
+                        <p className="control btns">
                             <a href="https://www.linkedin.com/in/jessny-joseph-361515201/">
                                 <button className="button is-info is-outlined socialBtn">
                                     <span className="icon">
@@ -34,7 +34,7 @@ const About = () => {
                                 </button>
                             </a>
                         </p>
-                        <p className="control">
+                        <p className="control btns">
                             <a href="https://github.com/jessnyj">
                                 <button className="button is-dark is-outlined socialBtn">
                                     <span className="icon">
@@ -44,7 +44,7 @@ const About = () => {
                                 </button>
                             </a>
                         </p>
-                        <p className="control">
+                        <p className="control btns">
                             <a href="../../images/resume.pdf">
                                 <button className="button is-danger is-outlined socialBtn">
                                     <span className="icon">

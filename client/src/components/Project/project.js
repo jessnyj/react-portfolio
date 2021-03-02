@@ -4,7 +4,7 @@ import "./project.css";
 
 function Project() {
     return (
-        <section>
+        <section className="cardHold">
             <div className="card-image">
                 <figure className="image">
                     <img src="../../images/loveCard.png" alt="loveCon"></img>

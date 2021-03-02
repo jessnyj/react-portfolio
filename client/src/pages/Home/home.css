@@ -5,8 +5,10 @@ h1 {
     font-size: 65px;
 }
 
-p {
+#desc {
     margin-left: 15%;
     margin-right: 15%;
     font-size: 20px;
+    visibility: hidden;
 }
+

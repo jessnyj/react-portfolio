@@ -7,16 +7,13 @@
 }
 
 #socialBtns {
-    /* display: flex;
-    justify-content: center;
+    display: flex;
+    /* justify-content: center;
     align-items: center; */
-    margin-left: 20px;
+    margin-left: 150px;
 }
 
-.socialBtn {
-    margin-right: 8px;
-    /* margin-left: 8px; */
-}
+
 
 #aboutCard {
     margin-top: 5%;
@@ -26,3 +23,6 @@
     height: 100%;
 }
 
+.btns {
+    margin: 0;
+}
