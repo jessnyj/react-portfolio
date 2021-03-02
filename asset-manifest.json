@@ -1,20 +1,30 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.90579ccd.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b77730f9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b77730f9.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.9826dc79.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9826dc79.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.5fd711a3.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.5fd711a3.js.map",
-    "static/js/2.15bae1ca.chunk.js": "/react-portfolio/static/js/2.15bae1ca.chunk.js",
-    "static/js/2.15bae1ca.chunk.js.map": "/react-portfolio/static/js/2.15bae1ca.chunk.js.map",
+    "static/js/2.54293d73.chunk.js": "/react-portfolio/static/js/2.54293d73.chunk.js",
+    "static/js/2.54293d73.chunk.js.map": "/react-portfolio/static/js/2.54293d73.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/main.90579ccd.chunk.css.map": "/react-portfolio/static/css/main.90579ccd.chunk.css.map",
-    "static/js/2.15bae1ca.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.15bae1ca.chunk.js.LICENSE.txt"
+    "static/js/2.54293d73.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.54293d73.chunk.js.LICENSE.txt",
+    "static/media/burger.2ebcd51b.png": "/react-portfolio/static/media/burger.2ebcd51b.png",
+    "static/media/burgerCard.ad2cdc81.png": "/react-portfolio/static/media/burgerCard.ad2cdc81.png",
+    "static/media/clicky.af78382e.png": "/react-portfolio/static/media/clicky.af78382e.png",
+    "static/media/empCard.e3846ae1.png": "/react-portfolio/static/media/empCard.e3846ae1.png",
+    "static/media/fitnessCard.63574637.png": "/react-portfolio/static/media/fitnessCard.63574637.png",
+    "static/media/jessny-grad.3918d3f4.png": "/react-portfolio/static/media/jessny-grad.3918d3f4.png",
+    "static/media/loveCard.a916ff2e.png": "/react-portfolio/static/media/loveCard.a916ff2e.png",
+    "static/media/loveCon.ee37ed0f.png": "/react-portfolio/static/media/loveCon.ee37ed0f.png",
+    "static/media/role.8802d3e1.png": "/react-portfolio/static/media/role.8802d3e1.png",
+    "static/media/simpCard.e0cb7176.png": "/react-portfolio/static/media/simpCard.e0cb7176.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5fd711a3.js",
-    "static/js/2.15bae1ca.chunk.js",
+    "static/js/2.54293d73.chunk.js",
     "static/css/main.90579ccd.chunk.css",
-    "static/js/main.b77730f9.chunk.js"
+    "static/js/main.9826dc79.chunk.js"
   ]
 }
