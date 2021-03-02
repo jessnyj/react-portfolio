@@ -2,18 +2,14 @@
     float: left;
 }
 
-#aboutText, #title3, #title4 {
+#aboutText, #aboutTitle, #aboutSub {
     margin-left: 150px;
 }
 
 #socialBtns {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     margin-left: 150px;
 }
-
-
 
 #aboutCard {
     margin-top: 5%;

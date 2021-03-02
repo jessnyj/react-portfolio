@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import Header from "../../components/Header/header"
 import "./home.css";
 
 class Home extends Component {

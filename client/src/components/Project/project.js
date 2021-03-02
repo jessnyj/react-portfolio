@@ -6,34 +6,34 @@ function Project() {
     return (
         <section className="cardHold">
             <div className="card-image">
-                <figure className="image">
+                <figure className="image projPic">
                     <img src="../../images/loveCard.png" alt="loveCon"></img>
                 </figure>
             </div>
             <div className="card-image">
                 <a href="/projectExplained">
-                <figure className="image">
+                <figure className="image projPic">
                     <img src="../../images/simpCard.png" alt="simpGame"></img>
                 </figure>
                 </a>
             </div>
             <div className="card-image">
-                <figure className="image">
+                <figure className="image projPic">
                     <img src="../../images/empCard.png" alt="empDir"></img>
                 </figure>
             </div>
             <div className="card-image">
-                <figure className="image">
+                <figure className="image projPic">
                     <img src="../../images/fitnessCard.png" alt="fitness"></img>
                 </figure>
             </div>
             <div className="card-image">
-                <figure className="image">
+                <figure className="image projPic">
                     <img src="../../images/burgerCard.png" alt="burger"></img>
                 </figure>
             </div>
             <div className="card-image">
-                <figure className="image">
+                <figure className="image projPic">
                     <img src="../../images/role.png" alt="empTrack"></img>
                 </figure>
             </div>

@@ -12,8 +12,8 @@ const About = () => {
                     <figure id="aboutPic" className="image is-128x128">
                         <img src="../../images/jessny-grad.png" alt="Jessny Grad"></img>
                     </figure>
-                    <h3 id="title3" className="title is-3">About Me</h3>
-                    <h4 id="title4" className="subtitle is-4">Jessny Joseph</h4>
+                    <h3 id="aboutTitle" className="title is-3">About Me</h3>
+                    <h4 id="aboutSub" className="subtitle is-4">Jessny Joseph</h4>
                     <div id="aboutText" className="content">
                         Hi, im Jessny! I am a full stack web developer certified
                         from UC Berkeley Extension. My interest in technology began in undergrad
