@@ -20,7 +20,7 @@
 [Deployed Link](https://react-portfolio29.herokuapp.com/)
 
 ## Site Gif
-![Site]()
+![Site](src/images/react-portfolio.gif)
 
 ## Technologies Used
 * React
