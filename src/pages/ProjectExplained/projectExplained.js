@@ -6,12 +6,50 @@ import clicky from "../../images/clicky.png";
 import empDir from "../../images/empCard.png";
 import fitness from "../../images/fitnessCard.png";
 import burger from "../../images/burger.png";
-import role from "../../images/role.png";
+import books from "../../images/react-books.png";
 
 const ProjectExplained = () => {
     return (
-        // Love connect
         <section>
+            {/* React Books */}
+            <section className="hero is-large">
+                <figure>
+                    <img id="reactBooks" src={books} alt="role"></img>
+                </figure>
+            </section>
+            <section className="hero is-medium">
+                <div className="hero-body">
+                    <p className="title">
+                        React Books
+                    </p>
+                    <p className="subtitle">
+                    This is a full stack React based application that allows users to search for Google Books, add them to their Saved page, and delete them from their page as well.
+                    </p>
+                    <div className="field is-grouped">
+                    <p className="control">
+                            <a href="https://react-books87.herokuapp.com/">
+                                <button className="button is-info is-outlined">
+                                    <span className="icon">
+                                        <i className="fas fa-external-link-square-alt"></i>
+                                    </span>
+                                    <span>Deployed Link</span>
+                                </button>
+                            </a>
+                        </p>
+                        <p className="control">
+                            <a href="https://github.com/jessnyj/react-books">
+                                <button className="button is-dark is-outlined">
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            {/* Love Connect */}
             <section className="hero is-large">
                 <figure>
                     <img src={loveCon} alt="loveCon"></img>
@@ -192,35 +230,6 @@ const ProjectExplained = () => {
                         </p>
                         <p className="control">
                             <a href="https://github.com/jessnyj/burger">
-                                <button className="button is-dark is-outlined">
-                                    <span className="icon">
-                                        <i className="fab fa-github"></i>
-                                    </span>
-                                    <span>GitHub</span>
-                                </button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </section>
-            {/* Employee Tracker */}
-            <section className="hero is-large">
-                <figure>
-                    <img id="empTracker" src={role} alt="role"></img>
-                </figure>
-            </section>
-            <section className="hero is-medium">
-                <div className="hero-body">
-                    <p className="title">
-                        Employee Tracker
-                    </p>
-                    <p className="subtitle">
-                        The employer tracker application allows a user to manage a company's employees. It allows a user to add and
-                        view departments, roles, employees, as well as update employee roles.
-                    </p>
-                    <div className="field is-grouped">
-                        <p className="control">
-                            <a href="https://github.com/jessnyj/employee-tracker">
                                 <button className="button is-dark is-outlined">
                                     <span className="icon">
                                         <i className="fab fa-github"></i>

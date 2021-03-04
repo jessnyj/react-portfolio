@@ -5,13 +5,20 @@ import simp from "../../images/simpCard.png";
 import empDir from "../../images/empCard.png";
 import fitness from "../../images/fitnessCard.png";
 import burger from "../../images/burgerCard.png";
-import role from "../../images/role.png";
+import books from "../../images/react-books.png";
 
 function Project() {
     return (
         <div>
             <h1 id="instructions">Click an image to learn more:</h1>
             <section className="cardHold">
+            <div className="card-image">
+                    <a href="/projectExplained">
+                        <figure className="image projPic">
+                            <img src={books} alt="reactBooks"></img>
+                        </figure>
+                    </a>
+                </div>
                 <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
@@ -44,13 +51,6 @@ function Project() {
                     <a href="/projectExplained">
                         <figure className="image projPic">
                             <img src={burger} alt="burger"></img>
-                        </figure>
-                    </a>
-                </div>
-                <div className="card-image">
-                    <a href="/projectExplained">
-                        <figure className="image projPic">
-                            <img src={role} alt="empTrack"></img>
                         </figure>
                     </a>
                 </div>
