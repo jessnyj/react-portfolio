@@ -5,12 +5,51 @@ import loveCon from "../../images/loveCon.png";
 import clicky from "../../images/clicky.png";
 import empDir from "../../images/empCard.png";
 import fitness from "../../images/fitnessCard.png";
-import burger from "../../images/burger.png";
+import mediaPlug from "../../images/mediaPlug.png";
 import books from "../../images/react-books.png";
 
 const ProjectExplained = () => {
     return (
         <section>
+                {/* Burger */}
+                <section className="hero is-large">
+                <figure>
+                    <img src={mediaPlug} alt="mediaPlug"></img>
+                </figure>
+            </section>
+            <section className="hero is-medium">
+                <div className="hero-body">
+                    <p className="title">
+                        Media Plug
+                    </p>
+                    <p className="subtitle">
+                    A MERN-stack application that allows users to connect based off of books and reading challenges. Users can login, create an account, add books to their shelf, create challenges to focus on, as well as view what other users in the community are reading and challenging themselves with
+                    </p>
+                    <div className="field is-grouped">
+                        <p className="control">
+                            <a href="https://media-plug.herokuapp.com/">
+                                <button className="button is-info is-outlined">
+                                    <span className="icon">
+                                        <i className="fas fa-external-link-square-alt"></i>
+                                    </span>
+                                    <span>Deployed Link</span>
+                                </button>
+                            </a>
+                        </p>
+                        <p className="control">
+                            <a href="https://github.com/coleman-buffa/media-plug">
+                                <button className="button is-dark is-outlined">
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
             {/* React Books */}
             <section className="hero is-large">
                 <figure>
@@ -191,45 +230,6 @@ const ProjectExplained = () => {
                         </p>
                         <p className="control">
                             <a href="https://github.com/jessnyj/fitness-track">
-                                <button className="button is-dark is-outlined">
-                                    <span className="icon">
-                                        <i className="fab fa-github"></i>
-                                    </span>
-                                    <span>GitHub</span>
-                                </button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </section>
-            {/* Burger */}
-            <section className="hero is-large">
-                <figure>
-                    <img src={burger} alt="burger"></img>
-                </figure>
-            </section>
-            <section className="hero is-medium">
-                <div className="hero-body">
-                    <p className="title">
-                        Burger
-                    </p>
-                    <p className="subtitle">
-                        This application is a fun burger logger! You can add your favorite burger, and decide whether you want to
-                        devour it or if you aren't hungry you can change your mind.
-                    </p>
-                    <div className="field is-grouped">
-                        <p className="control">
-                            <a href="https://burger-eater70.herokuapp.com/">
-                                <button className="button is-info is-outlined">
-                                    <span className="icon">
-                                        <i className="fas fa-external-link-square-alt"></i>
-                                    </span>
-                                    <span>Deployed Link</span>
-                                </button>
-                            </a>
-                        </p>
-                        <p className="control">
-                            <a href="https://github.com/jessnyj/burger">
                                 <button className="button is-dark is-outlined">
                                     <span className="icon">
                                         <i className="fab fa-github"></i>

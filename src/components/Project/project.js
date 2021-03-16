@@ -4,7 +4,7 @@ import love from "../../images/loveCard.png";
 import simp from "../../images/simpCard.png";
 import empDir from "../../images/empCard.png";
 import fitness from "../../images/fitnessCard.png";
-import burger from "../../images/burgerCard.png";
+import mediaPlug from "../../images/mediaPlug.png";
 import books from "../../images/react-books.png";
 
 function Project() {
@@ -12,6 +12,13 @@ function Project() {
         <div>
             <h1 id="instructions">Click an image to learn more:</h1>
             <section className="cardHold">
+            <div className="card-image">
+                    <a href="/projectExplained">
+                        <figure className="image projPic">
+                            <img src={mediaPlug} alt="mediaPlug"></img>
+                        </figure>
+                    </a>
+                </div>
             <div className="card-image">
                     <a href="/projectExplained">
                         <figure className="image projPic">
@@ -44,13 +51,6 @@ function Project() {
                     <a href="/projectExplained">
                         <figure className="image projPic">
                             <img src={fitness} alt="fitness"></img>
-                        </figure>
-                    </a>
-                </div>
-                <div className="card-image">
-                    <a href="/projectExplained">
-                        <figure className="image projPic">
-                            <img src={burger} alt="burger"></img>
                         </figure>
                     </a>
                 </div>
