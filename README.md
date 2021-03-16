@@ -3,35 +3,24 @@
 ![License](https://img.shields.io/badge/license-MIT-181717?style=for-the-badge) 
 
 ## Table of Contents
-* [Title](#title)
-* [Deployed Link](#deployed-link)
-* [Site Picture](#site-gif)
-* [Technologies Used](#technologies-used)
-* [Description](#description)
-* [Work Involved](#work-involved)
-* [Code Snippet](#code-snippet)
-* [License](#license)
-* [Authors](#authors)
-* [Questions](#questions)
-* [Acknowledgments](#acknowledgments)
+||||
+|:-:|:-:|:-:|
+|[Table of Contents](#table-of-contents)|[Deployed Link](#deployed-link)|[Technologies Used](#technologies-used)
+|[Description](#description)|[Work Involved](#work-involved)|[Code Snippet](#code-snippet)
+|[License](#license)|[Authors](#authors)|[Acknowledgments](#acknowledgments)
 
 ## Deployed Link
-* Click this link to view the site.
 [Deployed Link](https://react-portfolio29.herokuapp.com/)
 
 ## Site Gif
-![Site](src/images/react-portfolio.gif)
+![Site](src/images/reactfolio.gif)
 
 ## Technologies Used
-* React
-* animate.css
-* javascript
-* formspree
-* bulma
-* CSS
-* HTML
-* Github
-* Heroku
+|||||
+|:-:|:-:|:-:|:-:|
+|React|Animate.css|Formspree|Bulma|
+|CSS|Javascript|HTML|Github
+|Heroku|Express|Node|
 
 ## Description
 This is a React portfolio that includes my top 6 projects, an about me page, and contact me.
@@ -59,9 +48,8 @@ This project is covered under MIT.
 **Jessny Joseph** 
 
 ## Questions 
-* [Github](https://github.com/jessnyj)
-* [LinkedIn](https://www.linkedin.com/in/jessny-joseph-361515201)
+[Github](https://github.com/jessnyj) | [LinkedIn](https://www.linkedin.com/in/jessny-joseph-361515201)
 
 ## Acknowledgments
-Trilogy Education Services
+Thankful for the mentors and friends who are a continuous source of project inspiration and learning opportunities.
 
