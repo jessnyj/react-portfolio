@@ -7,7 +7,7 @@ class Home extends Component {
             var element = document.getElementById("desc");
             element.style.visibility = "visible";
             element.classList.add("animate__animated", "animate__fadeInDown")
-        }, 1000);
+        }, 1200);
     }
 
     render() {
