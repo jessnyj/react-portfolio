@@ -14,16 +14,16 @@ function Navbar() {
 
             <div id="navbarExampleTransparentExample" className="navbar-menu">
                 <div className="navbar-end">
-                    <Link to="/" class="navbar-item">
+                    <Link to="/" className="navbar-item">
                         Home
                         </Link>
-                    <Link to="/projects" class="navbar-item">
+                    <Link to="/projects" className="navbar-item">
                         Projects
                         </Link>
-                    <Link to="/about" class="navbar-item">
+                    <Link to="/about" className="navbar-item">
                         About Me
                         </Link>
-                    <Link to="/contact" class="navbar-item" >
+                    <Link to="/contact" className="navbar-item" >
                         Contact
                         </Link>
                 </div>
