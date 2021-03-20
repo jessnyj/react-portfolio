@@ -19,11 +19,10 @@ const About = () => {
                     <div id="aboutText" className="content">
                         Hi, im Jessny! I am a full stack web developer certified
                         from UC Berkeley Extension. My interest in technology began in undergrad
-                        where I studied Biochemistry and Business. As my passion for both subjects
-                        grew, I became eager to combine both interests and was introduced into the field
-                        of technology. I believe that coding will allow me to achieve my goal of being an
-                        entrepreneur in the field of science, and I am eager to be apart of this new field. Please
-                        feel free to contact me with any questions.
+                        where I studied Biochemistry and Business Administration. My educational background has
+                        endowed me with valuable problem solving and interpersonal skills that allow me to be an effective
+                        trouble shooter and team player as a software developer. I am very interested in contributing to emerging technologies and working
+                        alongside likeminded individuals. Please feel free to contact me with any questions.
                     </div>
                     <div id="socialBtns" className="field is-grouped">
                         <p className="control btns">

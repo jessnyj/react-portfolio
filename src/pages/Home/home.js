@@ -16,7 +16,7 @@ class Home extends Component {
                 <h1 id="name" className="animate__animated animate__fadeInDown">
                     <span role="img" aria-label="sheep">👋 </span>
                     Hi, I'm Jessny.</h1>
-                <p id="desc">I am a full stack web developer interested in the convergence between biological systems and emerging technologies.
+                <p id="desc">I am a full stack web developer from UC Berkeley Extension. I have a background in Biochemistry and Business Administration, and I am interested in contributing towards emerging technologies.
                 Please feel free to take a look at my most recent projects.  </p>
             </div>
         );
